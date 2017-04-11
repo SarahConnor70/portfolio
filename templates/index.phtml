@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Slim 3</title>
+        <link rel="stylesheet" href="asset/css/materialize.min.css">
+        <style>
+            body {
+            width: 100%;
+            height: 100%;
+            font-family: "Roboto";
+            text-align: center;
+            color: #aaa;
+            font-size: 18px;
+            margin: 0;
+            }
+
+            h1 {
+            color: #719e40;
+            letter-spacing: -3px;
+            font-family: "Roboto";
+            font-size: 100px;
+            font-weight: 200;
+            margin: 0 0 0 0;
+
+            }
+            .header{
+
+            height: auto;
+            width: 100%;
+            background-color: #80deea;
+            }
+            .gauche{
+            text-align: left;
+            font-size: 25px;
+            color: black;
+            }
+            .color{
+            color: black;
+            font-size: 25px;
+            }
+            p{
+                margin: 0 0 0 0;
+            }
+        </style>
+    </head>
+    <body>  
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo center">PortFolio Développeuse WEB Junior</a>
+
+                    <ul id="nav-mobile" class="hide-on-med-and-down">
+                        <li><a href="competences.phtml">Compétences</a></li>
+                        <li><a href="formation.phtml">Formations</a></li>
+                        <li><a href="loisirs.phtml">Loisirs</a></li>
+                    <ul>
+
+            </div>
+        </nav>        
+        <div class="header">
+            <div class="gauche">
+                <p>Habitant à {{adresse}} {{cp}} {{ville}}</p>
+            </div>
+            <div class="color gauche">
+                <p>Téléphone: {{telephone}}</p>
+                <p>Adresse mail: {{email}}</p>    
+            </div>
+        </div>
+        
+        <footer class="page-footer">
+            <div class="container">
+                <div class="row">      
+                    <div class="col l4 offset-l4 s12">
+                        <h5 class="white-text">Réseaux sociaux</h5>                    
+                        <!-- <a href=z> -->
+                        <img src="asset/img/facebook.png"></a>
+                        <!-- <a  href="https://github.com/SarahConnor70" target="_blank"> -->
+                        <img src="asset/img/github.png" ></a>
+                        <!-- <a href="https://www.linkedin.com/in/sarah-py-177717140/" target="_blank"> -->
+                        <img src="asset/img/linkedin.png"></a>
+                      <!--   <a href="https://twitter.com/SarahConnor700" target="_blank"> -->
+                        <img src="asset/img/twitter.png"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2017 Copyright 
+                </div>
+            </div>
+        </footer>  
+    </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+</html>
